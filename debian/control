@@ -1,0 +1,16 @@
+Source: mp-fremantle-community-pr
+Section: user/system
+Priority: required
+Maintainer: Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.2
+
+Package: mp-fremantle-community-pr
+Architecture: all
+Replaces: mp-fremantle-generic-pr, mp-fremantle-203-pr, mp-fremantle-002-pr, mp-fremantle-003-pr
+Conflicts: mp-fremantle-generic-pr, mp-fremantle-203-pr, mp-fremantle-002-pr, mp-fremantle-003-pr
+XB-Maemo-Display-Name: Maemo 5 Community SSU Package
+Description: Community SSU package, includes latest fixes from Gitorious and the community
+Depends: modest (>= 3.90.7-3), hildon-home (>= 0.3.71-3), hildon-desktop (>= 1:2.2.142-4), hildon-application-manager (>= 1:2.2.72-2), hildon-status-menu (>= 0.3.40-2), libvte4 (>= 1:0.16.14-0mh9.m6), libvte4-common (>= 1:0.16.14-0mh9.m6)
+Pre-Depends: maemo-optify-runonce
+XB-Maemo-Flags:  reboot, system-update

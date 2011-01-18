@@ -1,0 +1,36 @@
+mp-fremantle-community-pr (20.2010.36-2maemo5) unstable; urgency=low
+
+  * Reverted new hildon-home.
+
+ -- Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>  Tue, 18 Jan 2011 17:35:59 +0200
+
+mp-fremantle-community-pr (20.2010.36-2maemo4) unstable; urgency=low
+
+  * New hildon-home with Matan's patches.
+  * New hildon-desktop with hildon-status-menu in portrait mode.
+
+ -- Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>  Fri, 31 Dec 2010 01:46:30 +0200
+
+mp-fremantle-community-pr (20.2010.36-2maemo3) unstable; urgency=low
+
+  * Added suggest-backup flag, ready for primetime :)
+
+ -- Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>  Mon, 01 Nov 2010 16:04:50 +0200
+
+mp-fremantle-community-pr (20.2010.36-2maemo2) unstable; urgency=low
+
+  * Added Matan's hildon-desktop.
+
+ -- Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>  Sun, 31 Oct 2010 20:14:39 +0200
+
+mp-fremantle-community-pr (20.2010.36-2maemo1) unstable; urgency=low
+
+  * Added Replaces and Conflicts in debian/control
+
+ -- Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>  Fri, 29 Oct 2010 00:54:15 +0200
+
+mp-fremantle-community-pr (20.2010.36-2maemo0) unstable; urgency=low
+
+  * Initial release of community package based on PR1.3.
+
+ -- Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>  Fri, 29 Oct 2010 00:20:24 +0200
