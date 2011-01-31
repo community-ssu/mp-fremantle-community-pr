@@ -11,6 +11,76 @@ Replaces: mp-fremantle-generic-pr, mp-fremantle-203-pr, mp-fremantle-002-pr, mp-
 Conflicts: mp-fremantle-generic-pr, mp-fremantle-203-pr, mp-fremantle-002-pr, mp-fremantle-003-pr
 XB-Maemo-Display-Name: Maemo 5 Community SSU Package
 Description: Community SSU package, includes latest fixes from Gitorious and the community
-Depends: modest (>= 3.90.7-3), hildon-home (>= 0.3.71-3), hildon-desktop (>= 1:2.2.142-4), hildon-application-manager (>= 1:2.2.72-2), hildon-status-menu (>= 0.3.40-2), libvte4 (>= 1:0.16.14-0mh9.m6), libvte4-common (>= 1:0.16.14-0mh9.m6)
+Depends: modest (>= 3.90.7-3), hildon-home (>= 0.3.71-3), hildon-desktop (>= 1:2.2.142-4), hildon-application-manager (>= 1:2.2.72-2), hildon-status-menu (>= 0.3.40-3), libvte4 (>= 1:0.16.14-0mh9.m6), libvte-common (>= 1:0.16.14-0mh9.m6)
 Pre-Depends: maemo-optify-runonce
 XB-Maemo-Flags:  reboot, system-update
+XB-Maemo-Icon-26:
+ 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
+ ====

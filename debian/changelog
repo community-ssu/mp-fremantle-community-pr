@@ -1,3 +1,15 @@
+mp-fremantle-community-pr (20.2010.36-2maemo7) unstable; urgency=low
+
+  * Depend on newest packages - ready for release!
+
+ -- Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>  Thu, 20 Jan 2011 16:15:09 +0200
+
+mp-fremantle-community-pr (20.2010.36-2maemo6) unstable; urgency=low
+
+  * Added proper dependencies on libvte4 and libvte-common.
+
+ -- Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>  Wed, 19 Jan 2011 00:32:53 +0200
+
 mp-fremantle-community-pr (20.2010.36-2maemo5) unstable; urgency=low
 
   * Reverted new hildon-home.
