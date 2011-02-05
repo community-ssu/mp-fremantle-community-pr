@@ -11,7 +11,7 @@ Replaces: mp-fremantle-generic-pr, mp-fremantle-203-pr, mp-fremantle-002-pr, mp-
 Conflicts: mp-fremantle-generic-pr, mp-fremantle-203-pr, mp-fremantle-002-pr, mp-fremantle-003-pr
 XB-Maemo-Display-Name: Maemo 5 Community SSU Package
 Description: Community SSU package, includes latest fixes from Gitorious and the community
-Depends: modest (>= 3.90.7-3), hildon-home (>= 0.3.71-3), hildon-desktop (>= 1:2.2.142-4), hildon-application-manager (>= 1:2.2.72-2), hildon-status-menu (>= 0.3.40-3), libvte4 (>= 1:0.16.14-0mh9.m6), libvte-common (>= 1:0.16.14-0mh9.m6)
+Depends: modest (>= 3.90.7-3), hildon-home (>= 0.3.71-4), hildon-desktop (>= 1:2.2.141-5), hildon-application-manager (>= 1:2.2.72-2), hildon-status-menu (>= 0.3.40-4), libvte4 (>= 1:0.16.14-0mh9.m6), libvte-common (>= 1:0.16.14-0mh9.m6), qtm-maemo-metapackage, dsme-thermalobject-surface, libqt4-core, libqt4-gui
 Pre-Depends: maemo-optify-runonce
 XB-Maemo-Flags:  reboot, system-update
 XB-Maemo-Icon-26:

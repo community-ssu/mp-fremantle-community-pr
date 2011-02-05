@@ -1,3 +1,13 @@
+mp-fremantle-community-pr (20.2010.36-2maemo8) unstable; urgency=low
+
+  * Fixed bug #11813.
+  * Fixed bug #11815.
+  * Fixed bug #11829.
+  * Fixed bug in hildon-status-menu.
+  * Depend on libqt4-core and some system packages.
+
+ -- Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>  Sat,  5 Feb 2011 03:55:12 +0200
+
 mp-fremantle-community-pr (20.2010.36-2maemo7) unstable; urgency=low
 
   * Depend on newest packages - ready for release!
