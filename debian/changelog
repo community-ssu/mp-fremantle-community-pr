@@ -1,3 +1,28 @@
+mp-fremantle-community-pr (20.2010.36-2maemo11) unstable; urgency=low
+
+  * Fixed bug #11835.
+  * Fixed bug #11839.
+  * Fixed bug #11858.
+  * Fixed bug #11859.
+  * Fixed bug #11874.
+  * Replaced osso-applet-notificationlight and osso-applet-display with FOSS clones by Nicolai Hess (cloes #11913 and #11932).
+  * Merged Thomas Perl's patches to configure font size in the application menu.
+
+ -- Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>  Mon, 14 Feb 2011 03:31:53 +0200
+
+mp-fremantle-community-pr (20.2010.36-2maemo10) unstable; urgency=low
+
+  * Fixed bug #11844.
+  * Merged Thomas Perl's patches to desaturate and modify the task launcher into hildon-desktop.
+
+ -- Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>  Mon,  7 Feb 2011 19:50:47 +0200
+
+mp-fremantle-community-pr (20.2010.36-2maemo9) unstable; urgency=low
+
+  * Fixed #11813 and applied Jaffa's patch for the icon.
+
+ -- Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>  Sun,  6 Feb 2011 15:21:27 +0200
+
 mp-fremantle-community-pr (20.2010.36-2maemo8) unstable; urgency=low
 
   * Fixed bug #11813.
