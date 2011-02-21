@@ -1,3 +1,15 @@
+mp-fremantle-community-pr (20.2010.36-2maemo12) unstable; urgency=low
+
+  * Applied Nicolai Hess's patch for 9 views in hildon-home (#11933).
+  * Applied Thomas Perl's Z-axis, forced rotation, and tactile patches to hildon-desktop.
+  * Fixed horizontal scrolling in modest (#11910).
+  * Provided a widget in control panel to show CSSU version.
+  * Added portrait mode support to hildon-control-panel.
+  * Compilation fixes for modest.
+  * Applied Thomas Perl's patch for portrait HAM.
+
+ -- Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>  Tue, 22 Feb 2011 00:51:48 +0200
+
 mp-fremantle-community-pr (20.2010.36-2maemo11) unstable; urgency=low
 
   * Fixed bug #11835.
