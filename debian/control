@@ -11,7 +11,7 @@ Replaces: mp-fremantle-generic-pr, mp-fremantle-203-pr, mp-fremantle-002-pr, mp-
 Conflicts: mp-fremantle-generic-pr, mp-fremantle-203-pr, mp-fremantle-002-pr, mp-fremantle-003-pr
 XB-Maemo-Display-Name: Maemo 5 Community SSU Package
 Description: Community SSU package, includes latest fixes from Gitorious and the community
-Depends: modest (>= 3.90.7-6), hildon-home (>= 0.3.71-5), hildon-desktop (>= 1:2.2.142-8), hildon-application-manager (>= 1:2.2.72-3), hildon-status-menu (>= 0.3.40-4), libvte4 (>= 1:0.16.14-0mh9.m6), libvte-common (>= 1:0.16.14-0mh9.m6), osso-applet-display (>= 1.5.4+0cssu1), osso-applet-notificationlight (>= 0.0.8+0cssu1), hildon-control-panel (>= 1:2.2.27-4), libcpaboutcssu (>= 1.0+0cssu1), qtm-maemo-metapackage, dsme-thermalobject-surface, libqt4-core, libqt4-gui
+Depends: modest (>= 3.90.7-7), hildon-home (>= 0.3.71-6), hildon-desktop (>= 1:2.2.142-10), hildon-application-manager (>= 1:2.2.72-3), hildon-status-menu (>= 0.3.40-4), libvte4 (>= 1:0.16.14-0mh9.m6), libvte-common (>= 1:0.16.14-0mh9.m6), osso-applet-display (>= 1.5.4+0cssu1), osso-applet-notificationlight (>= 0.0.8+0cssu1), hildon-control-panel (>= 1:2.2.27-4), libcpaboutcssu (>= 1.0+0cssu2), qtm-maemo-metapackage, dsme-thermalobject-surface, libqt4-core, libqt4-gui
 Pre-Depends: maemo-optify-runonce
 XB-Maemo-Flags:  reboot, system-update
 XB-Maemo-Icon-26:
