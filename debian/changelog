@@ -1,3 +1,11 @@
+mp-fremantle-community-pr (20.2010.36-2maemo13) unstable; urgency=low
+
+  * Added global zoom in/out in hildon-desktop (CTRL+S/F to use).
+  * Improved press effect (screen depresses when screen's released).
+  * Landscape orientation lock implemented.
+
+ -- Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>  Wed,  9 Mar 2011 21:58:35 +0200
+
 mp-fremantle-community-pr (20.2010.36-2maemo12.5) unstable; urgency=low
 
   * Added parallax (to transitions.ini) and zoom on press to hildon-desktop.
