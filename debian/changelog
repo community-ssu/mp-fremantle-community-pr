@@ -1,3 +1,23 @@
+mp-fremantle-community-pr (20.2010.36-2maemo14) unstable; urgency=low
+
+  * Qt upgraded to 4.7.2
+  * Reversed press effect.
+  * Removed portrait -> landscape rotation when launching apps.
+  * hildon-control-panel now takes a new splash screenshot at each startup.
+  * camera-ui replaced with open source clone by Nicolai Hess.
+  * maemo-statusmenu-fmtx replaced with open source clone by Faheem Pervez.
+  * Added new contributors' names to control panel applet.
+  * Portrait mode support in osso-pdf-viewer.
+  * Modest tree view mode.
+  * Portrait mode bckgrounds for Hildon Application Manager (default themes only).
+  * New locales for orientation lock applet.
+  * Portrait mode task navigator.
+  * New locale packages for modest (modest-l10n).
+  * New GConf key to disable menu editor.
+  * New GConf keys to set number of rows in hildon-status-menu
+
+ -- Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>  Mon, 11 Apr 2011 15:23:38 +0300
+
 mp-fremantle-community-pr (20.2010.36-2maemo13) unstable; urgency=low
 
   * Added global zoom in/out in hildon-desktop (CTRL+S/F to use).
