@@ -1,3 +1,14 @@
+mp-fremantle-community-pr (20.2010.36-2maemo15) unstable; urgency=low
+
+  * Qt downgraded to 4.7.0 with custom fixes (for now at least).
+  * hildon-desktop's portrait task manager now shows proper thumbs for landscape-only apps.
+  * osso-pdf-viewer diablo CSSU patches.
+  * Camera key exists preview mode in camera-ui
+  * Camera app now has sounds.
+  * Camera app icons and UI changed.
+
+ -- Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>  Mon, 30 May 2011 02:12:10 +0300
+
 mp-fremantle-community-pr (20.2010.36-2maemo14.1) unstable; urgency=low
 
   * Optified Qt libraries.
