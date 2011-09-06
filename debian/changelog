@@ -1,3 +1,23 @@
+mp-fremantle-community-pr (20.2010.36-2maemo16) unstable; urgency=low
+
+  * Qt upgraded to 4.7.4 (thanks to freemangordon for fixing compilation bugs).
+  * hildon-desktop portrait mode support (thanks to arcean for patches).
+  * Offline IMAP support in email client.
+  * Portrait mode in calculator rewrite (thanks to Pali).
+  * Geotagging precision bug fixed
+  * Bug 12135 fixed.
+  * Camera app suspends when screen is locked, saving battery life.
+  * Camera app no longer opens up when screen is locked and the camera button is pressed.
+  * hildon-home updated with two sets of wallpapers for portrait mode.
+  * Vertical scrolling in hildon-desktop
+  * Bug 6584 fixed: GPS geotagged pictures truncate precision of GPS reading (0 decimal places)
+  * QtQuickCompat nulled, included in Qt 4.7.4
+  * osso-pdf-viewer bugs introduced in last update fixed.
+  * Landscape dialogs rotate properly in portrait mode.
+  * File manager "Save as" fixed (thanks to freemangordon).
+
+ -- Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>  Tue, 06 Sep 2011 23:33:36 +0300
+
 mp-fremantle-community-pr (20.2010.36-2maemo15) unstable; urgency=low
 
   * Qt downgraded to 4.7.0 with custom fixes (for now at least).
