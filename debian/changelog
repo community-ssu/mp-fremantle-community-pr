@@ -1,3 +1,15 @@
+mp-fremantle-community-pr (20.2010.36-2maemo16.5) unstable; urgency=low
+
+  * Qt upstream patches to fix OpenGL.
+  * Pull in new calculator UI explicitly.
+  * Depend on modest-home-applet
+  * camera-ui blacklisted (forced landscape).
+  * Added new translation strings for French to the orientation lock applet.
+  * Desktop can be locked to landscape separately (apps will still rotate).
+  * Basic whitelist support in hildon-desktop
+
+ -- Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>  Thu, 08 Sep 2011 01:29:44 +0300
+
 mp-fremantle-community-pr (20.2010.36-2maemo16) unstable; urgency=low
 
   * Qt upgraded to 4.7.4 (thanks to freemangordon for fixing compilation bugs).
