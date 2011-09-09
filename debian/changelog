@@ -1,3 +1,12 @@
+mp-fremantle-community-pr (20.2010.36-2maemo16.6) unstable; urgency=low
+
+  * Segfaults in apps like marble fixed.
+  * hildon-desktop dsmetool command line tweaked, crashes should not lead to a reboot now.
+  * apt user/hidden block removed, no more E: Handler Silently Failed errors.
+  * Added translations strings for some languages to modest.
+
+ -- Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>  Fri, 09 Sep 2011 23:20:37 +0300
+
 mp-fremantle-community-pr (20.2010.36-2maemo16.5) unstable; urgency=low
 
   * Qt upstream patches to fix OpenGL.
