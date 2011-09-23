@@ -1,3 +1,15 @@
+mp-fremantle-community-pr (20.2010.36-2maemo16.8) unstable; urgency=low
+
+  * System security update/fix. Removed DigiNotar compromised certificates.
+
+ -- Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>  Sat, 10 Sep 2011 01:24:03 +0300
+
+mp-fremantle-community-pr (20.2010.36-2maemo16.7) unstable; urgency=low
+
+  * Fixed broken pre-depends
+
+ -- Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>  Fri, 09 Sep 2011 23:54:42 +0300
+
 mp-fremantle-community-pr (20.2010.36-2maemo16.6) unstable; urgency=low
 
   * Segfaults in apps like marble fixed.
