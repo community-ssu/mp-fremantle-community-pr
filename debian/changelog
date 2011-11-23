@@ -1,3 +1,14 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo1) unstable; urgency=low
+
+  * Added Qt DigiNotar blacklists.
+  * Fixed modest crashes.
+  * Fixed camera-ui corrupting videos after switching to background while recording.
+  * Fixed camera-ui overwriting user data.
+  * Fixed portrait wallpapers in hildon-home.
+  * CSSU rebased on top of official PR1.3.1 release.
+
+ -- Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>  Sat, 19 Nov 2011 17:19:24 +0200
+
 mp-fremantle-community-pr (20.2010.36-2maemo16.8) unstable; urgency=low
 
   * System security update/fix. Removed DigiNotar compromised certificates.
