@@ -1,3 +1,9 @@
+mp-fremantle-community-pr (21.2011.38-1Smaemo1) unstable; urgency=low
+
+  * Stable release based on testing 16.8
+
+ -- Christian Ratzenhofer <christian_ratzenhofer@yahoo.de>  Thu, 10 Nov 2011 02:12:08 +0100
+
 mp-fremantle-community-pr (20.2010.36-2maemo16.8) unstable; urgency=low
 
   * System security update/fix. Removed DigiNotar compromised certificates.
