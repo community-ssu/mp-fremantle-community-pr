@@ -1,3 +1,9 @@
+mp-fremantle-community-pr (21.2011.38-1Smaemo2.1) unstable; urgency=low
+
+  * Fix modest-l10n dependencies
+
+ -- Christian Ratzenhofer <christian_ratzenhofer@yahoo.de>  Mon,  2 Jan 2012 21:00:00 +0100
+
 mp-fremantle-community-pr (21.2011.38-1Smaemo2) unstable; urgency=low
 
   * Introduce modest
