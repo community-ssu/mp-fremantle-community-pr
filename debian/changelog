@@ -1,3 +1,11 @@
+mp-fremantle-community-pr (21.2011.38-1Smaemo2) unstable; urgency=low
+
+  * Introduce modest
+  * maemo-security-certman upstream patches blacklisting compromised Malaysian certificates
+  * Fixed libqt4-test upgrade issues
+
+ -- Christian Ratzenhofer <christian_ratzenhofer@yahoo.de>  Mon, 26 Dec 2011 18:24:32 +0100
+
 mp-fremantle-community-pr (21.2011.38-1Smaemo1) unstable; urgency=low
 
   * Stable release based on testing 16.8
