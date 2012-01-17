@@ -1,3 +1,14 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo1.2) unstable; urgency=low
+
+  * hildon-desktop menu editor now supports both orientations.
+  * hildon-status-menu now displays 6 icons by default in portrait mode.
+  * camera-ui: fixed bug 12516
+  * osso-calculator: fixed bug 12514
+  * TV-out applet replaced by open source clone by Pali.
+  * osso-wlan fixes from injection sources.
+
+ -- Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>  Wed, 18 Jan 2012 00:12:46 +0200
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo1.1) unstable; urgency=low
 
   * Fixed camera-ui no close button in lens closed window.
