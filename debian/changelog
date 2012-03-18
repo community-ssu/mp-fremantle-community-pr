@@ -1,3 +1,18 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo2) unstable; urgency=low
+
+  * camera-ui: Fixed "Not Enough Memory" when memory card is N/A.
+  * freetype: CVE-2010-1797 | Fixed a segmentation fault.
+  * hildon-desktop: remove zoon functionality.
+  * hildon-desktop: don't repaint until the screen is black
+  * hildon-status-menu: fixed settings not loading.
+  * libcpaboutcssu: don't strip T/S from version string.
+  * hildon-home: image sets support up to 9 desktops & portrait wallpapers.
+  * libhildonfm: correctly decide on mmc card type (external or internal)
+  * hildon-desktop / libclutter: keep aspect ratio and fix clipping for portrait thumbnails.
+  * Added dependency on rtcom-accounts-voip-support.
+
+ -- Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>  Sun, 18 Mar 2012 20:23:33 +0200
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo1.2) unstable; urgency=low
 
   * hildon-desktop menu editor now supports both orientations.
