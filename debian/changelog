@@ -1,3 +1,9 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo2.1) unstable; urgency=low
+
+  * Fixed libclutter dependency
+
+ -- Christian Ratzenhofer <christian_ratzenhofer@yahoo.de>  Tue, 20 Mar 2012 14:07:50 +0100
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo2) unstable; urgency=low
 
   * camera-ui: Fixed "Not Enough Memory" when memory card is N/A.
