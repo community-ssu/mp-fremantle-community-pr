@@ -1,3 +1,11 @@
+mp-fremantle-community-pr (21.2011.38-1Smaemo3) unstable; urgency=low
+
+  * Introduce freetype and clutter
+  * Updated hildon-desktop, hildon-home and hildon-status-menu
+  * Fixed rtcom-accounts-voip-support upgrade issues
+
+ -- Christian Ratzenhofer <christian_ratzenhofer@yahoo.de>  Fri, 30 Mar 2012 16:24:04 +0200
+
 mp-fremantle-community-pr (21.2011.38-1Smaemo2.1) unstable; urgency=low
 
   * Fix modest-l10n dependencies
