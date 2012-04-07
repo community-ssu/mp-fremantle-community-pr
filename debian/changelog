@@ -1,3 +1,17 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo3) unstable; urgency=low
+
+  * alarmd: Fixed alarmd does not correctly replace [COOKIE] in exec string (bug #12560)
+  * camera-ui: Fixed incorrect video resolution label in settings dialog
+  * hildon-desktop: Don't do extra transistion when launching an application that does not support portrait.
+  * ke-recv: Added support for more MMC card partitions and other filesystems
+  * ke-recv: Use libvolume_id instead of osso-update-mmc-label.sh for volume names
+  * libxml2: CVE-2011-2834 DoS via double free in XPath handling (bug #12566)
+  * openssl: CVE-2010-0742 Cryptographic Message Syntax vulnerability (bug #12557)
+  * osso-pdf-viewer-l10n: CVE-2010-0742 Cryptographic Message Syntax vulnerability (bug #12557)
+  * TV Out packages: code refactor, fixed memory leaks.
+
+ -- Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>  Sat, 07 Apr 2012 19:14:12 +0300
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo2.1) unstable; urgency=low
 
   * Fixed libclutter dependency
