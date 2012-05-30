@@ -13,6 +13,12 @@ mp-fremantle-community-pr (21.2011.38-1Tmaemo4) unstable; urgency=low
 
  -- Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>  Thu, 31 May 2012 00:00:38 +0300
 
+mp-fremantle-community-pr (21.2011.38-1Tmaemo3.1) unstable; urgency=low
+
+  * Fixed ke-recv build
+
+ -- Christian Ratzenhofer <christian_ratzenhofer@yahoo.de>  Sat,  7 Apr 2012 21:41:40 +0200
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo3) unstable; urgency=low
 
   * alarmd: Fixed alarmd does not correctly replace [COOKIE] in exec string (bug #12560)
