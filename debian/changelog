@@ -1,3 +1,18 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo4) unstable; urgency=low
+
+  * alarmd: wasn't added to this metapackage.
+  * camera-ui: fix for dead stream after playback
+  * libhildon: fixed #12553
+  * hildon-home: removed unsused gconf, enlarge background dialog in portrait
+  * hildon-status-menu: removed unsused gconf
+  * ke-recv: various fixes regarding renaming and a hook to ignore partitions.
+  * libcurl: fixed #12554
+  * modest: fixed #12285
+  * Included operator-name-cbs-widget
+  * pango: fixed #12550
+
+ -- Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>  Thu, 31 May 2012 00:00:38 +0300
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo3) unstable; urgency=low
 
   * alarmd: Fixed alarmd does not correctly replace [COOKIE] in exec string (bug #12560)
