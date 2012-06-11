@@ -1,3 +1,9 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo4-thumb1) unstable; urgency=low
+
+  * hildon-home 0.3.71-10
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Mon, 11 Jun 2012 07:39:55 +0300
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo4-thumb0) unstable; urgency=low
 
   * First thumb Release, includes QT, GTK, modest, hildon-desktop, hildon-home and hildon-status-menu 
