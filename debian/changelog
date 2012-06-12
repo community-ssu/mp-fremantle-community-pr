@@ -1,3 +1,21 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo4-thumb6) unstable; urgency=low
+
+  *  restore kernel-feature-errata-workaraund dependency
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Mon, 12 Jun 2012 21:36:17 +0300
+
+mp-fremantle-community-pr (21.2011.38-1Tmaemo4-thumb4) unstable; urgency=low
+
+  * depend only on kernel-cssu, remove kernel-feature-errata-workaraund dependency
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Mon, 12 Jun 2012 20:44:33 +0300
+
+mp-fremantle-community-pr (21.2011.38-1Tmaemo4-thumb3) unstable; urgency=low
+
+  * depend on the exact kernel version
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Mon, 12 Jun 2012 19:36:45 +0300
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo4-thumb2) unstable; urgency=low
 
   * remove extra dot in tinymail version dependency
