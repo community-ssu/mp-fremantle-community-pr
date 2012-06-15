@@ -1,3 +1,9 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo4-thumb7) unstable; urgency=low
+
+  *  add qt-mobility, clutter, libhildonfm, osso-gnome-vfs2
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Fri, 15 Jun 2012 17:28:47 +0300
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo4-thumb6) unstable; urgency=low
 
   *  restore kernel-feature-errata-workaraund dependency
