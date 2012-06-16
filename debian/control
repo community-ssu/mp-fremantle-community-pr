@@ -11,7 +11,9 @@ Replaces: mp-fremantle-generic-pr, mp-fremantle-203-pr, mp-fremantle-002-pr, mp-
 Conflicts: mp-fremantle-generic-pr, mp-fremantle-203-pr, mp-fremantle-002-pr, mp-fremantle-003-pr
 XB-Maemo-Display-Name: Maemo 5 Community SSU Package(thumb)
 Description: Community SSU package, includes latest fixes from Gitorious and the community
-Depends: apt (>= 0.7.20.2maemo13.2+0cssu1),
+Depends: alarmd (>= 1.1.16+0m5+0cssu0-thumb0),
+ libalarm2 (>= 1.1.16+0m5+0cssu0-thumb0),
+ apt (>= 0.7.20.2maemo13.2+0cssu1),
  apt-transport-https (>= 0.7.20.2maemo13.2+0cssu1),
  camera-ui (>= 1.1.29.2+0cssu13),
  dosfstools (>= 1:3.0.12-0cssu0.2),
@@ -83,7 +85,7 @@ Depends: apt (>= 0.7.20.2maemo13.2+0cssu1),
  libtvout-ctl (>= 1.0-0+0cssu0),
  libvte-common (>= 1:0.16.14-0mh9.m6),
  libvte4 (>= 1:0.16.14-0mh9.m6),
- libxml2 (>= 2.6.32.dfsg-5maemo1),
+ libxml2 (>= 2.6.32.dfsg-5maemo4+0cssu0-thumb0),
  maemo-applet-tvout (>= 6.0-0+0cssu0),
  maemo-statusmenu-fmtx (>= 0.12+0cssu2),
  maemosec-certman-applet (>= 0.1.4+0m5),
