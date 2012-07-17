@@ -1,3 +1,9 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo4.1) unstable; urgency=low
+
+  * Recompiled thumb binaries as non-thumb
+
+ -- Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>  Tue, 17 Jul 2012 23:52:12 +0300
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo4) unstable; urgency=low
 
   * alarmd: wasn't added to this metapackage.
