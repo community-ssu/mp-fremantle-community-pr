@@ -1,3 +1,28 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo4-thumb12) unstable; urgency=low
+
+  *  toolchain upgrade to gcc 4.7.2
+  *  microb - fixed HTTPS TLS error
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Fri, 27 Jul 2012 15:06:52 +0300
+
+mp-fremantle-community-pr (21.2011.38-1Tmaemo4-thumb11) unstable; urgency=low
+
+  *  add microb-engine and libgcc1
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Thu, 19 Jul 2012 18:51:13 +0300
+
+mp-fremantle-community-pr (21.2011.38-1Tmaemo4-thumb10) unstable; urgency=low
+
+  *  add thumb-compiled X, depend on kernel-cssu2
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Wen, 20 Jun 2012 15:43:19 +0300
+
+mp-fremantle-community-pr (21.2011.38-1Tmaemo4-thumb9) unstable; urgency=low
+
+  *  version increased due to alarmd dependency
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Fri, 16 Jun 2012 10:11:21 +0300
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo4-thumb8) unstable; urgency=low
 
   *  add libxml2, alarmd, libalarm2
