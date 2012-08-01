@@ -1,3 +1,15 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo4-thumb14) unstable; urgency=low
+
+  *  tinymail upgrade to 1cssu4-thumb2
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Sat, 01 Aug 2012 06:22:37 +0300
+
+mp-fremantle-community-pr (21.2011.38-1Tmaemo4-thumb13) unstable; urgency=low
+
+  *  kernel upgrade to cssu3
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Sat, 28 Jul 2012 23:14:17 +0300
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo4-thumb12) unstable; urgency=low
 
   *  toolchain upgrade to gcc 4.7.2
