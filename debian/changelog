@@ -1,3 +1,17 @@
+mp-fremantle-community-pr (21.2011.38-1Smaemo4.1) unstable; urgency=low
+
+  * Dependency update (missing epoch)
+
+ -- Ruediger Schiller <chemist@dostortugas.org>  Wed,  5 Sep 2012 22:12:59 +0200
+
+mp-fremantle-community-pr (21.2011.38-1Smaemo4) unstable; urgency=low
+
+  * Introduce pango, osso-wlan, osso-pdf-viewer-l10n, osso-gnome-vfs2, openssl, libhildon,
+ 	libcurl, ke-recv and dosfstools
+  * Updated modest, libhildonfm, hildon-home and hildon-desktop
+
+ -- Ruediger Schiller <chemist@dostortugas.org>  Wed,  5 Sep 2012 19:11:38 +0200
+
 mp-fremantle-community-pr (21.2011.38-1Smaemo3) unstable; urgency=low
 
   * Introduce freetype and clutter
