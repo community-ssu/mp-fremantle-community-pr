@@ -1,3 +1,26 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo5) unstable; urgency=low
+
+  * alarmd: add to metapackage for real
+  * busybox: disabled redrawing lineedit window after SIGWINCH signal.
+  * community-ssu-enabler: added system level cssu catalogues, repository keys and uninstaller script
+  * curl: update to 7.26.0, fixes ipv6 dns problems
+  * evolution-data-server: Remove lines with empty value from VCARD string (except required fields)
+  * hildon-application-manager: reenabled Red Pill mode, removed PC Suite error message
+  * hildon-desktop: fixed blurless desaturation, added desturate closing window tumbs
+  * libxml2: fixed #12566
+  * microb-engine: fixed #12555, #12564
+  * modest: enable horizontal scrolling in settings dialog
+  * obexd: upated to 0.46, backported client bluetooth connection
+  * operator-name-cbs-widget: renamed to connui-home-cellular, removed log buttons, added support for custom operator names
+  * osso-wlan: fixed EAP recovery
+  * osso-xterm: added support to configure reverse colors, always scroll and # of scrollback lines
+  * policy-settings-rx51: enable jackbias when headset or microphone is accesible, of if configured in alsaped.conf
+  * qt-x11-maemo: improve performance of partial updates in raster window surface on X11
+  * tinymail: fixed invalid/NULL pointer in get_folder_status, prevent heap corruption in list
+  * upstart: added warning to /etc/fstab, allow +x on fat partitions
+
+ -- Christian Ratzenhofer <christian_ratzenhofer@yahoo.de>  Tue, 11 Sep 2012 12:48:26 +0200
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo4.1) unstable; urgency=low
 
   * Recompiled thumb binaries as non-thumb
