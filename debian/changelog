@@ -1,3 +1,9 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo5.1) unstable; urgency=low
+
+  * fixed busybox dependency
+
+ -- Christian Ratzenhofer <christian_ratzenhofer@yahoo.de>  Tue, 11 Sep 2012 14:36:52 +0200
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo5) unstable; urgency=low
 
   * alarmd: add to metapackage for real
