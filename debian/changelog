@@ -1,6 +1,7 @@
-mp-fremantle-community-pr (21.2011.38-1Tmaemo4-thumb15) unstable; urgency=low
+mp-fremantle-community-pr (21.2011.38-1Tmaemo4-thumb16) unstable; urgency=low
 
   *  microb-engine rebased to maemo.org version
+  *  add libcurl3
 
  -- Ivaylo Dimitrov <freemangordon@abv.bg>  Mon, 03 Sep 2012 19:39:11 +0300
 
