@@ -1,3 +1,10 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo5.1+thumb1) unstable; urgency=low
+
+  * added missing dependency (system-services (>= 0.3.8-68+0cssu0))
+  * Thumb2 compiled dosfstools and openssl
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Sun, 23 Sep 2012 17:12:56 +0300
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo5.1+thumb0) unstable; urgency=low
 
   * rebased on top of 21.2011.38-1Tmaemo5
