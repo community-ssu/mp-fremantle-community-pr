@@ -1,3 +1,15 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo6) unstable; urgency=low
+
+  * camera-ui: use maemo-invoker, use NOKIA_CAMERA_DIR and NOKIA_MMC_CAMERA_DIR
+  * hildon-desktop: fixed #12052, #12584 and #12629
+  * obexd: Initial MAP support (no notifiactions no message push)
+  * openssl: fixed -dbg package (removed debug symbols from main package)
+  * pulseaudio: added support for bluetooth AudioSource, added loopback module
+  * rtcom-eventlogger-async: fixed dependency
+  * status-area-orientationlock-applet: Added dutch translation (by adekker)
+
+ -- Christian Ratzenhofer <christian_ratzenhofer@yahoo.de>  Wed, 31 Oct 2012 14:39:31 +0100
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo5.1) unstable; urgency=low
 
   * fixed busybox dependency
