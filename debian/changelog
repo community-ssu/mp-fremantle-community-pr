@@ -1,3 +1,9 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo5.1+thumb4) unstable; urgency=low
+
+  * Thumb2 compiled db4.2, pulseaudio, calendar-backend, evolution-data-server
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Wen, 03 Nov 2012 08:04:33 +0200
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo5.1+thumb3) unstable; urgency=low
 
   * Thumb2 compiled sqlite3, gstreamer, gst-plugins-base, gst-plugins-good
