@@ -1,3 +1,9 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo5.1+thumb3) unstable; urgency=low
+
+  * Thumb2 compiled sqlite3, gstreamer, gst-plugins-base, gst-plugins-good
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Wen, 03 Oct 2012 17:04:11 +0300
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo5.1+thumb2) unstable; urgency=low
 
   * Thumb2 compiled gdigicam and gst-plugins-bad
