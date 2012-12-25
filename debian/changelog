@@ -1,3 +1,9 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo7.1) unstable; urgency=low
+
+  * mp-fremantle-community-pr: removed libc6 dependency because the maemo.org repo does not import it
+
+ -- Christian Ratzenhofer <christian.ratzenhofer@cdnm.at>  Tue, 25 Dec 2012 22:10:09 +0100
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo7) unstable; urgency=low
 
   * alarm-ui: rewritten, fixed memleaks
