@@ -1,3 +1,29 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo7.1+thumb0) unstable; urgency=low
+
+  * Thumb2 compiled obexd, gnome-vfs-filechooser-backend, ke-recv, libmatchbox2, rtcom-eventlogger-async
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Tue, 26 Dec 2012 11:41:13 +0200
+
+mp-fremantle-community-pr (21.2011.38-1Tmaemo7.1) unstable; urgency=low
+
+  * mp-fremantle-community-pr: removed libc6 dependency because the maemo.org repo does not import it
+
+ -- Christian Ratzenhofer <christian.ratzenhofer@cdnm.at>  Tue, 25 Dec 2012 22:10:09 +0100
+
+mp-fremantle-community-pr (21.2011.38-1Tmaemo7) unstable; urgency=low
+
+  * alarm-ui: rewritten, fixed memleaks
+  * glibc: rebuilt to add support for ppoll/pselect (needs kernel)
+  * hildon-desktop / libmatchbox2: improved white and blacklist, fixed #12177, #12576, #12660,
+    regressions from the last release and portrait dialog windows
+  * ke-recv: added dhcp only uption for pc-suite usbnetwork, removed autostart of filemanager
+  * powerkeymenu: rewritten, fixed memleaks
+  * profile-status-menu-plugin: rewritten, shows all profiles
+  * rtcom-messaging-ui-portait: portrait css for messaging-ui (might need to reapply usermodifications)
+  * upstart: fixed boot fail if lowmem maemo kernel module is not loaded
+
+ -- Christian Ratzenhofer <christian.ratzenhofer@cdnm.at>  Tue, 25 Dec 2012 02:22:51 +0100
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo5.1+thumb4) unstable; urgency=low
 
   * Thumb2 compiled db4.2, pulseaudio, calendar-backend, evolution-data-server
