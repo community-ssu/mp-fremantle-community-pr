@@ -82,7 +82,7 @@ binary-arch: build install
 	# Changelog will be generated from file debian/changelog from MAJOR_VERSION to current version
 	# Note that XB- prefix should not appear in debian/package/DEBIAN/control (only in debian/control)
 	echo "Maemo-Upgrade-Description: Changelog for $(VERSION):" >> debian/mp-fremantle-community-pr/DEBIAN/control
-	dpkg-parsechangelog --from "$(MAJOR_VERSION)"| sed -n 's/^  //p' >> debian/mp-fremantle-community-pr/DEBIAN/control
+	dpkg-parsechangelog -v"$(MAJOR_VERSION)"| sed -n 's/^  //p' >> debian/mp-fremantle-community-pr/DEBIAN/control
 	dh_md5sums
 	dh_builddeb
 
