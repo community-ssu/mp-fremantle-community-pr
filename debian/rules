@@ -9,6 +9,12 @@
 # Uncomment this to turn on verbose mode.
 # export DH_VERBOSE=1
 
+# This will set current version string
+VERSION := $(shell dpkg-parsechangelog | sed -n 's/Version: //p')
+
+# This will set major version string (strip substring '.<something>' after 'maemo<something>')
+MAJOR_VERSION := $(shell echo $(VERSION) | sed 's/\(.*maemo.*\)\..*/\1/')
+
 ifneq (,$(findstring noopt,$(DEB_BUILD_OPTIONS)))
 	CFLAGS += -O0
 else
@@ -72,6 +78,11 @@ binary-arch: build install
 	dh_installdeb
 	dh_shlibdeps
 	dh_gencontrol
+	# This will generate changelog for HAM as described on http://wiki.maemo.org/Packaging#Maemo_upgrade_description
+	# Changelog will be generated from file debian/changelog from MAJOR_VERSION to current version
+	# Note that XB- prefix should not appear in debian/package/DEBIAN/control (only in debian/control)
+	echo "Maemo-Upgrade-Description: Changelog for $(VERSION):" >> debian/mp-fremantle-community-pr/DEBIAN/control
+	dpkg-parsechangelog --from "$(MAJOR_VERSION)"| sed -n 's/^  //p' >> debian/mp-fremantle-community-pr/DEBIAN/control
 	dh_md5sums
 	dh_builddeb
 
