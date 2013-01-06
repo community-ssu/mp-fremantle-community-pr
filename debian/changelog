@@ -1,3 +1,9 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo7.2) unstable; urgency=low
+
+  * maemo-security-certman: blacklist wrongly issued intermediate certificates from TÜRKTRUST
+
+ -- Christian Ratzenhofer <christian.ratzenhofer@cdnm.at>  Sun,  6 Jan 2013 22:28:32 +0100
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo7.1) unstable; urgency=low
 
   * mp-fremantle-community-pr: removed libc6 dependency because the maemo.org repo does not import it
