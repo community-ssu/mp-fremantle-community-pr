@@ -1,3 +1,10 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo7.1+thumb1) unstable; urgency=low
+
+  * Thumb2 compiled pango, freetype, libpng, zlib, libxml2
+  * Updated libpng, zlib and libxml2
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Sun, 06 Jan 2013 15:40:47 +0200
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo7.1+thumb0) unstable; urgency=low
 
   * Thumb2 compiled obexd, gnome-vfs-filechooser-backend, ke-recv, libmatchbox2, rtcom-eventlogger-async
