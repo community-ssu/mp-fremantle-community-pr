@@ -7,8 +7,8 @@ Standards-Version: 3.7.2
 
 Package: mp-fremantle-community-pr
 Architecture: all
-Replaces: mp-fremantle-generic-pr, mp-fremantle-203-pr, mp-fremantle-002-pr, mp-fremantle-003-pr
-Conflicts: mp-fremantle-generic-pr, mp-fremantle-203-pr, mp-fremantle-002-pr, mp-fremantle-003-pr
+Replaces: mp-fremantle-generic-pr, mp-fremantle-002-pr, mp-fremantle-003-pr, mp-fremantle-004-pr, mp-fremantle-203-pr, mp-fremantle-204-pr, mp-fremantle-205-pr, mp-fremantle-206-pr, mp-fremantle-207-pr, mp-fremantle-208-pr, mp-fremantle-210-pr
+Conflicts: mp-fremantle-generic-pr, mp-fremantle-002-pr, mp-fremantle-003-pr, mp-fremantle-004-pr, mp-fremantle-203-pr, mp-fremantle-204-pr, mp-fremantle-205-pr, mp-fremantle-206-pr, mp-fremantle-207-pr, mp-fremantle-208-pr, mp-fremantle-210-pr
 XB-Maemo-Display-Name: Maemo 5 Community SSU Package
 Description: Community SSU package, includes latest fixes from Gitorious and the community
 Depends: alarmd (>= 1.1.16+0m5+0cssu0),
