@@ -1,3 +1,15 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo7.2+thumb0) unstable; urgency=low
+
+  * version bump
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Monn, 07 Jan 2013 14:42:11 +0200
+
+mp-fremantle-community-pr (21.2011.38-1Tmaemo7.2) unstable; urgency=low
+
+  * maemo-security-certman: blacklist wrongly issued intermediate certificates from TURKTRUST
+
+ -- Christian Ratzenhofer <christian.ratzenhofer@cdnm.at> Sun, 6 Jan 2013 22:28:32 +0100
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo7.1+thumb1) unstable; urgency=low
 
   * Thumb2 compiled pango, freetype, libpng, zlib, libxml2
