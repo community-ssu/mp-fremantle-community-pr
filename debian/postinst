@@ -1,3 +1,5 @@
 #!/bin/sh -e
 
+if test "$(osso-product-info -q OSSO_VERSION 2> /dev/null)" = "RX-51_2009SE_21.2011.38-1_PR_MR0"; then exit 0; fi
+
 osso-product-info -s OSSO_VERSION="RX-51_2009SE_21.2011.38-1_PR_MR0" 2> /dev/null || exit 0
