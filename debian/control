@@ -7,8 +7,8 @@ Standards-Version: 3.7.2
 
 Package: mp-fremantle-community-pr
 Architecture: all
-Replaces: mp-fremantle-generic-pr, mp-fremantle-203-pr, mp-fremantle-002-pr, mp-fremantle-003-pr
-Conflicts: mp-fremantle-generic-pr, mp-fremantle-203-pr, mp-fremantle-002-pr, mp-fremantle-003-pr
+Replaces: mp-fremantle-generic-pr, mp-fremantle-002-pr, mp-fremantle-003-pr, mp-fremantle-004-pr, mp-fremantle-203-pr, mp-fremantle-204-pr, mp-fremantle-205-pr, mp-fremantle-206-pr, mp-fremantle-207-pr, mp-fremantle-208-pr, mp-fremantle-210-pr
+Conflicts: mp-fremantle-generic-pr, mp-fremantle-002-pr, mp-fremantle-003-pr, mp-fremantle-004-pr, mp-fremantle-203-pr, mp-fremantle-204-pr, mp-fremantle-205-pr, mp-fremantle-206-pr, mp-fremantle-207-pr, mp-fremantle-208-pr, mp-fremantle-210-pr
 XB-Maemo-Display-Name: Maemo 5 Community SSU Package
 XB-Maemo-Upgrade-Description: Stable update #6.1
  This Update #6.1 includes the following changes:
