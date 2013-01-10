@@ -1,3 +1,9 @@
+mp-fremantle-community-pr (21.2011.38-1Smaemo6) unstable; urgency=low
+
+  * Update modest, tinymail, maemo-security-certman
+
+ -- Ruediger Schiller <chemist@dostortugas.org>  Thu, 10 Jan 2013 17:59:11 +0100
+
 mp-fremantle-community-pr (21.2011.38-1Smaemo5) unstable; urgency=low
 
   * Introduce osso-xterm, libxml2
