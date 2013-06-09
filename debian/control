@@ -82,9 +82,9 @@ Depends: alarmd (>= 1.1.16+0m5+0cssu0),
  rtcom-messaging-ui-portrait (>= 1.0-1+devel0),
  status-menu-applet-profiles (>= 0.13-1+0cssu0),
  status-menu-applet-tvout (>= 6.0-0+0cssu0),
- system-services (>= 0.3.8-68+0cssu4),
+ system-services (>= 0.3.8-68+0cssu6),
  tracker (>= 0.6.95-35maemo1+0m5+0cssu1), tracker-utils (>= 0.6.95-35maemo1+0m5+0cssu1),
- upstart (>= 0.3.8-68+0cssu4),
+ upstart (>= 0.3.8-68+0cssu6),
  zlib1g (>= 1:1.2.7.dfsg-13maemo1+0cssu1)
 Pre-Depends: maemo-optify-runonce
 XB-Maemo-Flags:  reboot, system-update

@@ -1,3 +1,9 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo8.1) unstable; urgency=low
+
+  * upstart: do not run fsck, fixed booting with SD card inserted
+
+ -- Christian Ratzenhofer <christian.ratzenhofer@cdnm.at>  Sun,  9 Jun 2013 22:07:21 +0200
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo8) unstable; urgency=low
 
   * community-ssu-enabler: updated gpg key
