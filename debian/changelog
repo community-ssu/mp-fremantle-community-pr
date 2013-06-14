@@ -1,3 +1,9 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo8.2) unstable; urgency=low
+
+  * tinymail: Fixed gmail FETCH reply containing more that one open/close bracket pairs 
+
+ -- Christian Ratzenhofer <christian.ratzenhofer@cdnm.at>  Fri, 14 Jun 2013 08:37:21 +0200
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo8.1) unstable; urgency=low
 
   * upstart: do not run fsck, fixed booting with SD card inserted
