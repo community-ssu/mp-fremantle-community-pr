@@ -1,3 +1,9 @@
+mp-fremantle-community-pr (21.2011.38-1Smaemo6.1) unstable; urgency=low
+
+  * Update tinymail, fixing gmail's FETCH reply
+
+ -- Ruediger Schiller <chemist@dostortugas.org>  Tue, 18 Jun 2013 21:27:36 +0200
+
 mp-fremantle-community-pr (21.2011.38-1Smaemo6) unstable; urgency=low
 
   * Update modest, tinymail, maemo-security-certman
