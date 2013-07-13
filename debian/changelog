@@ -1,3 +1,64 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo8.2+thumb0) unstable; urgency=low
+
+  * packages updated to the latest CSSU-T version
+  * add thumb-compiled tracker, hildon-thumbnail and hildon
+  
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Sat, 15 Jul 2013 14:12:55 +0300
+
+mp-fremantle-community-pr (21.2011.38-1Tmaemo8.2) unstable; urgency=low
+
+  * tinymail: Fixed gmail FETCH reply containing more that one open/close bracket pairs 
+
+ -- Christian Ratzenhofer <christian.ratzenhofer@cdnm.at>  Fri, 14 Jun 2013 08:37:21 +0200
+
+mp-fremantle-community-pr (21.2011.38-1Tmaemo8.1) unstable; urgency=low
+
+  * upstart: do not run fsck, fixed booting with SD card inserted
+
+ -- Christian Ratzenhofer <christian.ratzenhofer@cdnm.at>  Sun,  9 Jun 2013 22:07:21 +0200
+
+mp-fremantle-community-pr (21.2011.38-1Tmaemo8) unstable; urgency=low
+
+  * community-ssu-enabler: updated gpg key
+  * connui-home-cellular: fixed operator name display bugs
+  * dsme: added option -p | --poweroff, replaced calls to getbootsate with
+    reads of /var/lib/dsme/saved_state
+  * gtk: Include maemo34 fixes #12144 and others
+  * hildon-desktop: New Qt rotation mechanism, ...
+  * libhildon: Fixed visible horitzontal scrollbar if HILDON_MOVEMENT_VERT is set
+  * libhildonfm: Enabled browsing bluetooth devices using obexFTP
+  * libpixman: Upgraded to upstream 0.28.2, added NEON / Integer optimizations
+  * libpng: Upgraded to upstream 1.2.49, fixes various CVES, added apng
+    support, backported NEON patches
+  * libxml: Fixed zlib dependency, upgraded to upstream 2.8.0
+  * microb-engine: use system zlib and libpng (security patches)
+  * modest: Added optional IMAP option to update all folders when checking for
+    new emails, fixed crash in email home applet, added support for
+    attachments in sub-MIME parts, added progress indicator for POP3 send and
+    recieve
+  * obexd: removed direct L2CAP support from OPP and FTP profiles
+  * osso-gnomevfs-extra: New package, adds ability to browse files on
+    bluetooth devices from file manager
+  * osso-systemui-tklock: rewritten, no more memleaks
+  * osso-xterm: enabled portrait mode, prevent setting negative scrollback
+    lines
+  * pulseaudio: decreased protocoll version from 16 to 15 (upstream 16 is
+    different), new LIFO list implementation (speedup)
+  * rtcom-messaging-ui-portrait: added keeping the last messag in vew when the
+    orientation changes, made new message adding portrait aware
+  * status-area-orientationlock-applet: updated french translation
+  * tracker: rebuilt with libpoppler from ssu repos to remove unecessary
+    dependency on extras
+  * upstart: added config options for generating fstab, calling fsck and other
+    actions to /etc/default/mount-opts-overwrite
+  * vte: prevents setting negative scrollback lines
+  * qt: Disabled QMaemo5OrientationManager, instead relies on hildon-desktop,
+    black listed mis-issued certificates, allow using QPixmap outside GUI
+    thread when using raster
+  * zlib: security patche
+
+ -- Christian Ratzenhofer <christian.ratzenhofer@cdnm.at>  Sun,  2 Jun 2013 17:18:10 +0200
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo7.2+thumb1) unstable; urgency=low
 
   * pixman upgraded to upstream
