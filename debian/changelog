@@ -1,3 +1,10 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo8.3) unstable; urgency=low
+
+  * osso-systemui-alarm: Fix nsv_sv_play_event call
+  * maemo-security-certman: Change VeriSign certificate order, fixes supl.nokia.com not working 
+
+ -- Christian Ratzenhofer <christian.ratzenhofer@cdnm.at>  Sun, 27 Oct 2013 14:40:15 +0100
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo8.2) unstable; urgency=low
 
   * tinymail: Fixed gmail FETCH reply containing more that one open/close bracket pairs 
