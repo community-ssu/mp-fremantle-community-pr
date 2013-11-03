@@ -1,3 +1,9 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo8.3+thumb1) unstable; urgency=low
+
+  * add the missing dependencies
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Sun, 03 Nov 2013 15:39:11 +0200
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo8.3+thumb0) unstable; urgency=low
 
   * osso-systemui-alarm: Fix nsv_sv_play_event call
