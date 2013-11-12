@@ -1,3 +1,11 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo8.3+thumb2) unstable; urgency=low
+
+  * upgrade glib to 2.24.1
+  * upgrade pulseaudio to 0.9.15-1maemo44+0m5+0cssu5
+  * Thumb2 compile alsa-lib, glib, pulseaudio, telepathy-glib, telepathy-gabble and osso-pdf-viewer
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Sun, 03 Nov 2013 15:39:11 +0200
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo8.3+thumb1) unstable; urgency=low
 
   * add the missing dependencies
