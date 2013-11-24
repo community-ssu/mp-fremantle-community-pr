@@ -1,3 +1,10 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo8.3+thumb3) unstable; urgency=low
+
+  * upgrade hildon-desktop to 1:2.2.153-2+thumb0
+  * Thumb2 compile cairo, libx11, libxfont
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Sun, 24 Nov 2013 17:11:42 +0200
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo8.3+thumb2) unstable; urgency=low
 
   * upgrade glib to 2.24.1
