@@ -1,3 +1,37 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo9) unstable; urgency=low
+
+  * clock-ui: Open source rewrite of the nokia clock-ui, thanks to Adekker (ade)
+  * camera-ui: Added Fallback to DCIM if NOKIA_CAMERA_DIR or NOKIA_MMC_CAMERA_DIR environment variable is not defined
+    Removed some GLIB Warning messages when changing profile
+  * dosfstools: Fixed install paths, data will be installed to /usr/share instead of /share
+  * e2fsprogs: Updated to upstream 1.42.5, fixes fsck for ext* filesystems
+  * glib2.0: Updated to upstream 2.24
+  * glibc: Enabled kernel implementations of epoll, ppoll and pselect
+  * fmtx-middleware: Fm TX now keeps running when headphones/usb is plugged in
+  * gtkfilesystemmemory: Moved development files to osso-memory-backend-dev, frees rootfs space
+  * hildon-desktop: Fixed thumbnails rotation, fixed #12707, fixed a crash. 
+  * hildon-thumbnail: Added failed thumbnails cleanup script, fixed a memleak. 
+  * hildon-welcome: Fixed not running when /proc/bootreason is missing (ie. an upstream kernel is used)
+  * initrd-progs: Open source replacement with new feature -G which prints block data to stdout
+  * ke-recv-extra: Fixed 100% Cpu use on 3.x kernels
+  * libcpaboutcssu: dpkg-query instead of shell hack, added luf
+  * maemo-tvout-control: Moved maemo-applet-tvout back into libs section, fixes control panel entry missing
+  * modest: Moved recursive imap operations into glib main loop, fixes 100% Cpu / freeze on imap sync
+  * modest-l10n: Added english string for mcen_fi_advsetup_update_all_folders
+  * osso-af-utils: Replaced call to getbootstate with read of /var/lib/dsme/saved_state,
+    fixed boot when /proc/bootreason is missing 
+  * osso-calculator: Added support for top_application dbus call
+  * osso-systemui-tklock: Fixed bug #12701: Ball is moving when touching anywhere along the bar-slide
+  * profiled: Open source replacement version from Nokia (harmattan/nemo)
+  * pulseaudio: Improved protocol version handling for non maemo sources,
+    added config for bluetooth audio source
+  * qt4-x11-maemo: Added MeeGo libs
+  * status-area-applet-battery: Open source replacement which works with BME hal, bq27200 hal, rx51-battery hal
+  * status-area-orientationlock-applet: Added swedish translation
+  * upstart: Enabled auto fsck on boot, added support for swap_opts in /etc/default/mount-opts
+
+ -- Christian Ratzenhofer <christian.ratzenhofer@cdnm.at>  Sat, 28 Dec 2013 18:50:01 +0100
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo8.3) unstable; urgency=low
 
   * osso-systemui-alarm: Fix nsv_sv_play_event call
