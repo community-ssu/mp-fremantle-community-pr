@@ -1,3 +1,32 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo9+thumb0) unstable; urgency=low
+
+  * clock-ui: Open source rewrite of the nokia clock-ui, thanks to Adekker (ade)
+  * camera-ui: Added Fallback to DCIM if NOKIA_CAMERA_DIR or NOKIA_MMC_CAMERA_DIR environment variable is not defined
+    Removed some GLIB Warning messages when changing profile
+  * dosfstools: Fixed install paths, data will be installed to /usr/share instead of /share
+  * e2fsprogs: Updated to upstream 1.42.5, fixes fsck for ext* filesystems
+  * glibc: Enabled kernel implementations of epoll, ppoll and pselect
+  * fmtx-middleware: Fm TX now keeps running when headphones/usb is plugged in
+  * gtkfilesystemmemory: Moved development files to osso-memory-backend-dev, frees rootfs space
+  * hildon-welcome: Fixed not running when /proc/bootreason is missing (ie. an upstream kernel is used)
+  * initrd-progs: Open source replacement with new feature -G which prints block data to stdout
+  * ke-recv-extra: Fixed 100% Cpu use on 3.x kernels
+  * libcpaboutcssu: dpkg-query instead of shell hack, added luf
+  * maemo-tvout-control: Moved maemo-applet-tvout back into libs section, fixes control panel entry missing
+  * modest: Moved recursive imap operations into glib main loop, fixes 100% Cpu / freeze on imap sync
+  * modest-l10n: Added english string for mcen_fi_advsetup_update_all_folders
+  * osso-af-utils: Replaced call to getbootstate with read of /var/lib/dsme/saved_state,
+    fixed boot when /proc/bootreason is missing 
+  * osso-calculator: Added support for top_application dbus call
+  * osso-systemui-tklock: Fixed bug #12701: Ball is moving when touching anywhere along the bar-slide
+  * profiled: Open source replacement version from Nokia (harmattan/nemo)
+  * qt4-x11-maemo: Added MeeGo libs, change compiler flags
+  * status-area-applet-battery: Open source replacement which works with BME hal, bq27200 hal, rx51-battery hal
+  * upstart: Enabled auto fsck on boot, added support for swap_opts in /etc/default/mount-opts
+  * Thumb2 compile clock-ui, e2fsprogs, gtkfilesystemmemory, ke-recv-extra, osso-af-utils, profiled
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Mon, 30 Dec 2013 10:16:22 +0200
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo8.3+thumb3) unstable; urgency=low
 
   * upgrade hildon-desktop to 1:2.2.153-2+thumb0
