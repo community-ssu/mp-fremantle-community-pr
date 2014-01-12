@@ -1,3 +1,9 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo9.1+thumb0) unstable; urgency=low
+
+  * fmtx-middleware: revert to 0.62, fixes US model issues
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Mon, 12 Jan 2013 19:21:22 +0200
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo9+thumb1) unstable; urgency=low
 
   * Fix dependencies
