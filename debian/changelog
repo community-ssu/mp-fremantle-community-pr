@@ -1,3 +1,16 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo9.1+thumb1) unstable; urgency=low
+
+  * hildon-application-manager: apt-worker performance improvements
+  * hildon-desktop: Fixed: BMO #12722: hildon-desktop crashes on malformed transitions.ini. 
+    hd_render_manager_set_state clean up.
+    Many portrait related changes. Fixes BMO #12720: Incorrect lockscreen background. 
+    Fixed: BMO #12725: Screenshot saving path is hardcoded 
+    Fixed: Sometimes thumbnails are wrongly clipped. 
+    tasknav: fix thumbnails clip and rotation while in transition 
+  * glibc: Timezone information as of 2013(thanks to ade). Thumb2 compiled.
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Mon, 05 May 2014 18:45:11 +0300
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo9.1+thumb0) unstable; urgency=low
 
   * fmtx-middleware: revert to 0.62, fixes US model issues
