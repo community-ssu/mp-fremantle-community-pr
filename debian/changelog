@@ -1,3 +1,18 @@
+mp-fremantle-community-pr (21.2011.38-1Smaemo7) unstable; urgency=low
+
+  * dosfstools: Fixed install paths, data will be installed to /usr/share instead of /share
+  * libcpaboutcssu: Use dpkg-query instead of the ugly shell hack, added luf
+  * libhildon: PannableArea: always hide horizontal scrollbar if HILDON_MOVEMENT_MODE_VERT is set
+  * libxml: upgrade to upstream 2.8.0 (security)
+  * maemo-security-certman: Fixed order of Verisign certificates, fixes
+    supl.nokia.com
+  * openssl: Fixed debug package
+  * osso-calculator: Fixed bug 12514, added top_application dbus support
+  * vte: Prevent setting of negative scrollback lines
+  * zlib: upgrade to 1.2.7 (security)
+
+ -- Christian Ratzenhofer <christian.ratzenhofer@cdnm.at>  Wed,  3 Sep 2014 12:46:34 +0200
+
 mp-fremantle-community-pr (21.2011.38-1Smaemo6.1) unstable; urgency=low
 
   * Update tinymail, fixing gmail's FETCH reply
