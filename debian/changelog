@@ -1,3 +1,32 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo10+thumb0) unstable; urgency=low
+
+  * apt: Avoid sending useless auth data via http and https
+  * camera-ui: Fixed HD codecs bitrate calculation and useage of unreffed
+    object
+  * clock-ui: Fixed alarmlist order, snooze and recurrent alarms
+  * dosfstools: check / clear dirty bit
+  * fmtx-middleware: first release of FOSS verison
+  * hildon-application-manager: Performance fixes, removed another PC Suite
+    error, red Pill option available
+  * ke-recv: Fixed support for upstream client, new options in
+    /etc/default/mount-opts, new gconf key /system/osso/mmc-preferred-volume
+  * microb-engine: For reading device name use file /proc/cpuinfo instead
+    /proc/component_version
+  * modest: Forward ported fixes for #11993, a crash in HTLM -> text
+    conversion and a few G_CRITICALS in account creation
+  * nokiamaps-navigation-provider: FOSS release
+  * osso-systemui-powerkeymenu: Add power_key_mode and power_key_menu_response
+    to powerkeymenu-dbus-names.h
+  * pulseaudio: Enabled ipv6 support, disabled useless logs
+  * status-area-applet-battery: Nokia BME reporting incorrect last_full
+    property, so do not use it
+  * tinymail: allow TLS to alternative ports
+  * upstart: Use data=writeback for all ext3 and ext4 partitions (not only
+    root)
+  * Thumb2 compiled
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Mon, 29 Dec 2014 17:54:32 +0200
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo9.1+thumb1) unstable; urgency=low
 
   * hildon-application-manager: apt-worker performance improvements
