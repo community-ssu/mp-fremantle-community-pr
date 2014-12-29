@@ -1,3 +1,9 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo10+thumb1) unstable; urgency=low
+
+  * fix hildon-desktop version dependency
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Mon, 29 Dec 2014 19:13:22 +0200
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo10+thumb0) unstable; urgency=low
 
   * apt: Avoid sending useless auth data via http and https
