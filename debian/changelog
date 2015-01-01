@@ -1,3 +1,10 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo10.1) unstable; urgency=low
+
+  * fmtx-middleware: Do not disable FM transmitter when charger is attached,
+    do not disable FM transmitter when charger is attached
+
+ -- Christian Ratzenhofer <christian.ratzenhofer@cdnm.at>  Thu,  1 Jan 2015 23:44:20 +0100
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo10) unstable; urgency=low
 
   * apt: Avoid sending useless auth data via http and https
