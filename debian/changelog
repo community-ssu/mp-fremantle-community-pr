@@ -1,3 +1,9 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo10.1+thumb0) unstable; urgency=low
+
+  * fix fmtx-middleware version
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Fri, 02 Jan 2015 12:20:41 +0200
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo10+thumb1) unstable; urgency=low
 
   * fix hildon-desktop version dependency
