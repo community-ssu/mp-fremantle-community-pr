@@ -1,3 +1,18 @@
+mp-fremantle-community-pr (21.2011.38-1Tmaemo11+thumb0) unstable; urgency=low
+
+  * calendar-backend: Fixed #12682 invalid iCal export
+  * cityinfo: Open source replacement, fixes world database
+  * glibc: Fix for CVE 2015-0235 (GHOST)
+  * ke-recv: Fixed mount script for fat parittions
+  * mce: Open source replacement, fixes for upstream kernel
+  * upstart: Fixed /etc/default/mount-opts conffile issues
+  * openssl: Upgrade to upstream 0.9.8zf + maemo patches
+  * osso-product-info: Open source replacement, fixes for upstream kernel
+  * pulseaudio-policy-enforcement: disable useless logs
+  * telepathy-gabble: Google talk fixes, do not ignore muc messages
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Sat, 10 Oct 2015 13:22:34 +0300
+
 mp-fremantle-community-pr (21.2011.38-1Tmaemo10.1+thumb0) unstable; urgency=low
 
   * fix fmtx-middleware version
