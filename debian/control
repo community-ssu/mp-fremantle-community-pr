@@ -10,7 +10,7 @@ Architecture: all
 Replaces: mp-fremantle-generic-pr, mp-fremantle-002-pr, mp-fremantle-003-pr, mp-fremantle-004-pr, mp-fremantle-203-pr, mp-fremantle-204-pr, mp-fremantle-205-pr, mp-fremantle-206-pr, mp-fremantle-207-pr, mp-fremantle-208-pr, mp-fremantle-210-pr
 Conflicts: mp-fremantle-generic-pr, mp-fremantle-002-pr, mp-fremantle-003-pr, mp-fremantle-004-pr, mp-fremantle-203-pr, mp-fremantle-204-pr, mp-fremantle-205-pr, mp-fremantle-206-pr, mp-fremantle-207-pr, mp-fremantle-208-pr, mp-fremantle-210-pr
 XB-Maemo-Display-Name: Maemo 5 Community SSU Package
-Description: Community SSU package, includes latest fixes from Gitorious and the community
+Description: Community SSU package, includes latest fixes for Maemo 5 system by Maemo Community
 Depends: alarmd (>= 1.1.16+0m5+0cssu0),
  apt (>= 0.7.20.2maemo13.2+0cssu2), apt-transport-https (>= 0.7.20.2maemo13.2+0cssu2),
  busybox (>= 3:1.10.2.legal-1osso31+0cssu0), busybox-symlinks-busybox (>= 3:1.10.2.legal-1osso31+0cssu0), busybox-symlinks-console-tools (>= 3:1.10.2.legal-1osso31+0cssu0), busybox-symlinks-dnsutils (>= 3:1.10.2.legal-1osso31+0cssu0), busybox-symlinks-ifupdown (>= 3:1.10.2.legal-1osso31+0cssu0), busybox-symlinks-iputils-ping (>= 3:1.10.2.legal-1osso31+0cssu0), busybox-symlinks-net-tools (>= 3:1.10.2.legal-1osso31+0cssu0), busybox-symlinks-procps (>= 3:1.10.2.legal-1osso31+0cssu0), busybox-symlinks-psmisc (>= 3:1.10.2.legal-1osso31+0cssu0), busybox-symlinks-realpath (>= 3:1.10.2.legal-1osso31+0cssu0), busybox-symlinks-time (>= 3:1.10.2.legal-1osso31+0cssu0),
