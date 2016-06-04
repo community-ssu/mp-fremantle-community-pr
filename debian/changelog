@@ -1,3 +1,25 @@
+mp-fremantle-community-pr (21.2011.38-1Smaemo8) unstable; urgency=medium
+
+  * apt: avoid sending not used auth data
+  * calendar-backend: fixed export of ICal data
+  * community-ssu-enabler: disable dead nokia repos to prevent apt-get fails
+  * dosfstools: check boot sector dirty bit
+  * e2fstools: update to upstream 1.42.5, fixes various fsck issues
+  * evolution-data-server: Remove lines with empty value from VCARD
+  * glib: update to upstream 2.24.1
+  * glibc: ppoll, pselect, epoll (needs kernel), timezone information as of 2013, CVE 2015-0235 (GHOST)
+  * gtkfilesystemmemory: move development files into -dev package
+  * hildon-application-manager: fixes and performance improvements
+  * hildon-desktop: fixed dialog window not inheriting portrait flag (libmatchbox2 fix), other fixes
+  * modest: progress indicator for pop3 send/receive, imap option to update all folders, use natural english
+    strings instead of localized ones and some crash fixes
+  * modes-l10n: Added english string for mcen_fi_advsetup_update_all_folders, shows english strings instead of unstranslated strings
+  * openssl: upgrade to upstream 0.9.8zf (security fixes)
+  * qt4-x11: relies on hildon-desktop for orientation, blacklisted some certificates (turktrust), meego libs
+  * tinymail: allow tls to alternative ports
+
+ -- Christian Ratzenhofer <christian.ratzenhofer@cdnm.at>  Fri, 10 Jun 2016 12:42:59 +0200
+
 mp-fremantle-community-pr (21.2011.38-1Smaemo7) unstable; urgency=low
 
   * dosfstools: Fixed install paths, data will be installed to /usr/share instead of /share
