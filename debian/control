@@ -83,7 +83,7 @@ Depends: alarmd (>= 1.1.16+0m5+0cssu1),
  modest-l10n-cscz (>= 6.11+0cssu4), modest-l10n-dadk (>= 6.11+0cssu4), modest-l10n-dede (>= 6.11+0cssu4), modest-l10n-engb (>= 6.11+0cssu4), modest-l10n-enus (>= 6.11+0cssu4), modest-l10n-eses (>= 6.11+0cssu4), modest-l10n-esmx (>= 6.11+0cssu4), modest-l10n-fifi (>= 6.11+0cssu4), modest-l10n-frca (>= 6.11+0cssu4), modest-l10n-frfr (>= 6.11+0cssu4), modest-l10n-itit (>= 6.11+0cssu4), modest-l10n-mr0 (>= 6.11+0cssu4), modest-l10n-nlnl (>= 6.11+0cssu4), modest-l10n-nono (>= 6.11+0cssu4), modest-l10n-plpl (>= 6.11+0cssu4), modest-l10n-ptpt (>= 6.11+0cssu4), modest-l10n-ruru (>= 6.11+0cssu4), modest-l10n-svse (>= 6.11+0cssu4),
  nokiamaps-navigation-provider (>= 0.200-2+0m5),
  obexd (>= 0.46-1maemo5+0cssu2),
- openssl (>= 1.9.8zh-1+maemo1+0m5+0cssu0),
+ openssl (>= 0.9.8zh-1+maemo1+0m5+0cssu0),
  osso-af-utils (>= 2.13-1),
  osso-applet-display (>= 1.5.4+0cssu1), osso-applet-notificationlight (>= 0.0.8+0cssu1),
  osso-calculator (>= 2.0-1+0cssu3), osso-calculator-engine (>= 1.6.31-3+0cssu1), osso-calculator-ui (>= 2.0-1+0cssu3),
@@ -208,4 +208,3 @@ XB-Maemo-Icon-26:
  JiYmnk+n0weCwNb6+vprpKbU09fr1XfWNyrfOnXq1LeT5Ihnn/0NfOMb3/yf
  A9A5BgYGUKlUOpfB1NTUb5ZKpWey2cyFer3+vdnZ2X9sNltn/9f/Y8ejjz7a
  C2o8+aL/f+u44Qbsf9PxH4D+eQVVir4sAAAAAElFTkSuQmCC
-
