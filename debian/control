@@ -1,7 +1,7 @@
 Source: mp-fremantle-community-pr
 Section: user/system
 Priority: required
-Maintainer: Christian Ratzenhofer <christian.ratzenhofer@cdnm.at>
+Maintainer: Christopher Gillett <chrisgillett@westnet.com.au>
 Build-Depends: debhelper (>= 5), sharutils
 Standards-Version: 3.7.2
 
