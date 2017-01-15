@@ -26,13 +26,17 @@ mp-fremantle-community-pr (21.2011.38-1Tmaemo12) unstable; urgency=low
   *                  cve-2013-2877, cve-2014-0191, cve-2014-0191 and cve-2014-3660
   * modest: Add missing Nokia PR1.3 patches, Fix 'show more' functionality
   * osso-wlan: Fixes oops in packet injection driver, Delay interface down when disconnecting
-  * profiled: [packaging] Remove old spectacle cruft. Fixes JB#27289
   * status-area-applet-battery: When charging, reflect charge status in icon (e.g. battery half full: only upper half of icon animated);
                                 can be enabled/disabled with gconf key /apps/osso/status-area-applet-battery/show_charge_charging
                                 Fix crashing after unset gconf value
                                 Add gconf key for spawning application on click
                                 /apps/osso/status-area-applet-battery/exec_application
-  * libdevlock - Initial RE release
+  * mce: Add support of various gpio switches through evdev interface and gpio-keys driver.
+         Implement smart match of input devices providing switch caps
+         Support disabling the keys and switches provided by gpio-keys driver
+         do not segfault in mce_get_io_monitor_name when input devices get changed.
+  * osso-systemui-powerkeymenu: Update parameters for window hide/show functions
+  * osso-systemui-tklock: Update parameters for window hide/show functions
 
  -- Christopher Gillett <chrisgillett@westnet.com.au>  Sun, 08 Jan 2017 06:21:04 +1000
 
