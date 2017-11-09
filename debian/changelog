@@ -7,17 +7,32 @@ mp-fremantle-community-pr (21.2011.38-1Tmaemo12) unstable; urgency=low
   * hildon-application-manager: Backport old commits from hildon-application-manager mainline gitorious project
   * hildon-welcome: If /proc/bootreason does not exist, try to use /var/lib/dsme/saved_state or fallback to pwr_key
   * initrd-progs: Fix memory leak
+  * ke-recv: Fix musb path for upstream kernel again
+             Code for disabling usb network is now only at one place (in pcsuite-disable.sh)
+             Add support for configuration when g_nokia is compiled into kernel image
+             Add support for mass storage mode provided by g_nokia module
+             osso-usb-mass-storage-enable.sh: Do not crash if called without argument
+             Add new mode S_PCSUITE_MASS_STORAGE in which both PC Suite and Mass Storage is enabled
+             Fix ke-recv init.d script, make sure that usb_phonet_mode is removed
   * curl: Fixes - cve-2013-0249, cve-2013-1944, cve-2013-2174, #705783, #719300, cve-2013-4545, #729965, cve-2013-6422,
                   cve-2014-0015, cve-2014-0138, cve-2014-0139, cve-2014-3613, cve-2014-3620, cve-2014-3707, cve-2014-8150,
-                  cve-2015-3143 and cve-2015-3148
-  * maemo-security-certman: Update the root CA store to match mozilla-central revision e581572bc9c1, Fix for supl server certificate
+                  cve-2015-3143, cve-2015-3148, cve-2016-5419, cve-2016-5420, cve-2016-7141, cve-2016-7167, cve-2016-8615
+                  cve-2016-8616, cve-2016-8617, cve-2016-8618, cve-2016-8619, cve-2016-8621, cve-2016-8622, cve-2016-8623
+                  cve-2016-8624 and cve-2016-9586
+  * maemo-security-certman: Update the root CA store to match mozilla-central revision d10c97627b51, Fix for supl server certificate
   * maemo-security-certman-applet: Fixes Bug 1574 - Certificate Manager and WLAN EAP-TLS, Allow to use private keys without passwords
   * osso-product-info: Fix not setting OSSO_VERSION correctly
   * libpng: Fixes - CRC error after reading, cve-2015-7981, cve-2015-8126, cve-2015-8472 and cve-2015-8540
   * qt-x11-maemo: Disable SSLv2, SSLv3; leaving only TLSv1
   * openssl: Upgrade to upstream 0.9.8zh + maemo patches
   * libxml2: Fixes - pthread memory corruption, a thread portability problem, cve-2013-0338, cve-2013-0339,
-  *                  cve-2013-2877, cve-2014-0191, cve-2014-0191 and cve-2014-3660
+  *                  cve-2013-2877, cve-2014-0191, cve-2014-0191, cve-2014-3660, cve-2014-0191, cve-2014-3660,
+                     cve-2014-3660, cve-2014-3660, cve-2014-3660, cve-2015-7941, cve-2015-7941, cve-2015-1819,
+                     cve-2015-8317, cve-2015-8317, cve-2015-7942, cve-2015-7942, cve-2015-8035, cve-2015-8241,
+                     cve-2015-7498, cve-2015-7497, cve-2015-5312, cve-2015-7499, cve-2015-7500, cve-2016-1762,
+                     cve-2016-1834, cve-2016-3705, cve-2016-4483, cve-2016-1840, cve-2016-1838, cve-2016-1839,
+                     cve-2015-8806, cve-2016-2073, cve-2016-4449, cve-2016-1837, cve-2016-1835, cve-2016-4447,
+                     cve-2016-1833, cve-2016-3627, cve-2016-4658 and cve-2016-5131
   * modest: Add missing Nokia PR1.3 patches, Fix 'show more' functionality
   * osso-wlan: Fixes oops in packet injection driver, Delay interface down when disconnecting
   * status-area-applet-battery: When charging, reflect charge status in icon (e.g. battery half full: only upper half of icon animated);
@@ -31,8 +46,10 @@ mp-fremantle-community-pr (21.2011.38-1Tmaemo12) unstable; urgency=low
          do not segfault in mce_get_io_monitor_name when input devices get changed.
   * osso-systemui-powerkeymenu: Update parameters for window hide/show functions
   * osso-systemui-tklock: Update parameters for window hide/show functions
+                          Depend on RE osso-systemui-dev package version
+  * microb-engine: Add a workaround for an issue where Google Search can sometimes return an unescaped & symbol
 
- -- Christopher Gillett <chrisgillett@westnet.com.au>  Sun, 08 Jan 2017 06:21:04 +1000
+ -- Christopher Gillett <chrisgillett@westnet.com.au>  Thu, 09 Nov 2017 17:57:14 +1000
 
 mp-fremantle-community-pr (21.2011.38-1Tmaemo11) unstable; urgency=low
 
