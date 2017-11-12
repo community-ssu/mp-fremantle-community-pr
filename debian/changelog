@@ -1,7 +1,7 @@
 mp-fremantle-community-pr (21.2011.38-1Tmaemo12) unstable; urgency=low
 
   * alarmd: Return correct result in function server_action_do_exec()
-  * clock-ui: Major code refactoring and optimization
+  * clock-ui: Major code refactoring and optimization, Remove dependency on thumb kernel fix
   * connui-home-cellular: Fix an issue with operator name display
   * fmtx-middleware: Fix memory leak
   * hildon-application-manager: Backport old commits from hildon-application-manager mainline gitorious project
